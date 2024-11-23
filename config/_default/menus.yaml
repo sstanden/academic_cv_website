@@ -8,15 +8,16 @@ main:
     url: /
     weight: 10
   - name: Journal articles
-    url: /#papers
+    url: /#articles
+    weight: 11
   - name: Working papers
     url: /#papers
-    weight: 11
+    weight: 12
   - name: Reports
     url: /#reports
-    weight: 12
+    weight: 13
   - name: CV
-    url: /files/cv.pdf
+    url: /uploads/cv.pdf
     weight: 20
   - name: Publications
     url: publications/

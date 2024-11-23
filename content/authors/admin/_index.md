@@ -54,7 +54,8 @@ education:
   
 
 work:
-
+  - email: m.sato1 (at) lse.ac.uk
+  - address: 11.01C, Fawcett House, LSE, Houghton Street, London, WC2A 2AE, U.K.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

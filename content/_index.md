@@ -9,49 +9,67 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: 
+        url: 
     design:
-      css_class: dark
+      css_class: light
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: ''
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     subtitle: ''
+  #     text: ''
+  #     # Contact details - edit or remove options as needed
+  #     email: m.sato1 (at) lse.ac.uk
+  #     address:
+  #       street: 11.01C, Fawcett House, LSE, Houghton Street, London, WC2A 2AE, U.K.
+  #       city: London
+  #       postcode: WC2A 2AE
+  #       country: United Kingdom
+  #       country_code: UK
+  #     # Automatically link email and phone or display them just as text?
+  #     autolink: false
+  #     design:
+  #     # Choose how many columns the section has. Valid values: '1' or '2'.
+  #     columns: '1'
   - block: collection
-    id: papers
+    id: articles
     content:
-      title: Featured Publications
+      title: Journal articles
       filters:
         folders:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: compact
+      columns: 2
+  - block: collection
+    id: papers
+    content:
+      title: Research papers
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: list
       columns: 2
   - block: collection
     content:
