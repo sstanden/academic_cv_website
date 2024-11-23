@@ -19,9 +19,9 @@ sections:
       #  text: 
       #  url: 
     design:
-      css_class: dark
+      css_class: light
       background:
-        color: white
+        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: ''
